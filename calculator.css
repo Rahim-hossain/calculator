@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 5px 10px 0 rgba(43, 42, 42, 0.5);
+    transition: 0.3s;
+    font-size: 0;
+}
+
+.card:hover{
+    box-shadow: 0 15px 30px 0 rgba(43, 42, 42, 0.5);
+}
+
+.cal-head #result{
+    width: 95%;
+    height: 70px;
+    font-size: 30px;
+    text-align: right;
+    padding: 0 3px;
+    letter-spacing: 1px;
+}
+
+.cal-body{
+
+}
+
+.but{
+    height: 60px;
+    width: 70px;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    margin: 2px;
+}
+
+.but-sty1{
+    background-color: rgb(75, 97, 219);
+}
+
+.but-sty2{
+    background-color: rgb(233, 140, 18);
+}
+
+.but:hover{
+    background-color: rgb(42, 122, 122);
+}
